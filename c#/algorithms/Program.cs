@@ -10,7 +10,11 @@ static class Program
         // int[] nums = {1,1,2,3,1 };
         // Console.WriteLine(majorityElement.Get(nums));
 
-        LongestSubstring ls = new LongestSubstring();
-        Console.WriteLine(ls.LengthOfLongestSubstring("pwwkew"));
+        // LongestSubstring ls = new LongestSubstring();
+        // Console.WriteLine(ls.LengthOfLongestSubstring("pwwkew"));
+
+        ContainsDuplicate cd = new ContainsDuplicate();
+        int[] nums = {1,2,3,1};
+        Console.WriteLine(cd.IsContains(nums,3));
     }
 }

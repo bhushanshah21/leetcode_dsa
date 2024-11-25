@@ -6,8 +6,11 @@ static class Program
         // Palindrome palindrome = new Palindrome();
         // Console.WriteLine(palindrome.IsValid("A man, a plan, a canal: Panama"));
 
-        MajorityElement majorityElement = new MajorityElement();
-        int[] nums = {1,1,2,3,1 };
-        Console.WriteLine(majorityElement.Get(nums));
+        // MajorityElement majorityElement = new MajorityElement();
+        // int[] nums = {1,1,2,3,1 };
+        // Console.WriteLine(majorityElement.Get(nums));
+
+        LongestSubstring ls = new LongestSubstring();
+        Console.WriteLine(ls.LengthOfLongestSubstring("pwwkew"));
     }
 }
